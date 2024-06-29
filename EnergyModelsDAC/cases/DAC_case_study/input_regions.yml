@@ -1,0 +1,71 @@
+Countries: 
+  SI: {lat: 46.137592295645040, name: "SI", lon: 14.890636899973781, code: "SVN"}
+  ES: {lat: 40.416775, name: "ES", lon: -3.703790, governance: 0.625, code: "ESP"}
+  GB: {lat: 53.97844735080214, name: "GB", lon: -2.852943909329258, code: "GBR"}
+  LU: {lat: 49.77523454542369, name: "LU", lon: 6.1032303384588760, code: "LUX"}
+  HU: {lat: 47.22527332486294, name: "HU", lon: 19.396200483661420, code: "HUN"}
+  CH: {lat: 46.73678128684938, name: "CH", lon: 8.2869287948952850, code: "CHE"}
+  DE: {lat: 51.08304539800482, name: "DE", lon: 10.426171427430804, code: "DEU"}
+  SE: {lat: 62.73420986108448, name: "SE", lon: 17.062431988004956, code: "SWE"}
+  FR: {lat: 46.64236821694160, name: "FR", lon: 2.1940236627886227, code: "FRA"}
+  PL: {lat: 52.06848055692473, name: "PL", lon: 19.435732792344680, code: "POL"}
+  FI: {lat: 65.01578959749911, name: "FI", lon: 25.657384334547020, code: "FIN"}
+  IT: {lat: 42.98201127614267, name: "IT", lon: 12.763657166123137, code: "ITA"}
+  HR: {lat: 44.91192100856702, name: "HR", lon: 15.502432, code: "HRV"}
+  AT: {lat: 47.63185826989579, name: "AT", lon: 13.797778364631036, code: "AUT"}
+  NO: {lat: 63.978738, name: "NO", lon: 10.950521, code: "NOR"}
+  LT: {lat: 55.29437393417175, name: "LT", lon: 23.946021605013534, code: "LTU"}
+  PT: {lat: 39.67529214702138, name: "PT", lon: -7.933662183874006, code: "PRT"}
+  LV: {lat: 56.81385304755415, name: "LV", lon: 24.693671325654403, code: "LVA"}
+  NL: {lat: 52.13405412892389, name: "NL", lon: 5.5541364261284870, code: "NLD"}
+  BE: {lat: 50.61821388540950, name: "BE", lon: 4.675010154696485, code: "BEL"}
+  IE: {lat: 53.30489539816495, name: "IE", lon: -8.241128545554096, code: "IRL"}
+  RO: {lat: 45.82454894397586, name: "RO", lon: 25.094158201563292, code: "ROU"}
+  BG: {lat: 42.82043677302438, name: "BG", lon: 25.251739122561908, code: "BGR"}
+  CZ: {lat: 49.74917370930982, name: "CZ", lon: 15.383273292023533, code: "CZE"}
+  SK: {lat: 48.69808390520484, name: "SK", lon: 19.581015362490966, code: "SVK"}
+  DK: {lat: 56.00118817971057, name: "DK", lon: 9.378670542409406, code: "DNK"}
+  EE: {lat: 58.648108311231034, name: "EE", lon: 25.916870250633806, code: "EST"}
+  EL: {lat: 39.42012261727978, name: "EL", lon: 23.110368936161876, code: "GRC"}
+  BA: {lat: 44.14415356, name: "BA", lon: 17.83467241, code: "BIH"}
+  RS: {lat: 44.0267987, name: "RS", lon: 20.85677444, code: "SRB"}
+  MK: {lat: 41.5940289, name: "MK", lon: 21.70998924, code: "MKD"}
+
+
+Ports:
+  #Wilhelmshaven: {Name: "Wilhelmshaven", Lon: 8.158919002662923, Lat: 53.537176377024124, Country: "DE"}
+  Sines: {Name: "Sines", Lon: -8.869386668625143, Lat: 37.95272434946573, Country: "PT"}
+  Dunkerque: {Name: "Dunkerque" , Lon: 2.3777748497929165, Lat: 51.03335081230243, Country: "FR"}
+  Bremerhaven: {Name: "Bremerhaven", Lon: 8.582907771059732, Lat: 53.54863553292674, Country: "DE"}
+  #Amsterdam: {Name: "Amsterdam", Lon: 4.807115901147607, Lat: 52.41417909856771, Country: "NL"}
+  Riga: {Name: "Riga", Lon: 24.104334441153735, Lat: 56.992111881662986, Country: "LV"}
+  Constanta: {Name: "Constanta", Lon: 28.636430600638548, Lat: 44.17504600458647, Country: "RO"}
+  Gijon: {Name: "Gijon", Lon: -5.660823015892533, Lat: 43.533333274039954, Country: "ES"}
+  Immingham: {Name: "Immingham", Lon: -0.18907607239317167, Lat: 53.628849624245056, Country: "GB"}
+  Piraeus: {Name: "Piraeus", Lon: 23.634509049146455, Lat: 37.95272434946573, Country: "EL"}
+  Southampton: {Name: "Southampton", Lon: -1.3980170201192088, Lat: 50.89584094147103, Country: "GB"}
+  Augusta: {Name: "Augusta", Lon: 15.212029460723357, Lat: 37.19642005989304, Country: "IT"}
+  Barcelona: {Name: "Barcelona", Lon: 2.1657804655945117, Lat: 41.344634496640204, Country: "ES"}
+  Tallinn: {Name: "Tallinn", Lon: 24.76896548350549, Lat: 59.43864166687161, Country: "EE"}
+  Tees Hartlepool: {Name: "Tees Hartlepool", Lon: -1.157374746164263, Lat: 54.60287787596745, Country: "GB"}
+  Cagliari: {Name: "Cagliari", Lon: 9.104299364628782, Lat: 39.213231498753544, Country: "IT"}
+  Trieste: {Name: "Trieste", Lon: 13.762446239042374, Lat: 45.65900669397531, Country: "IT"}
+  Goteborg: {Name: "Goteborg", Lon: 11.928981294623739, Lat: 57.70257954762521, Country: "SE"}
+  Marseille: {Name: "Marseille", Lon: 5.368614540375814, Lat: 43.29269100008501, Country: "FR"}
+  Taranto: {Name: "Taranto", Lon: 17.217381743681237, Lat: 40.47946822599266, Country: "IT"}
+  London: {Name: "London", Lon: 0.49847328176381617, Lat: 51.497446626358396, Country: "GB"}
+  Lorient: {Name: "Lorient", Lon: -3.3575326794666243, Lat: 47.75030264620281, Country: "FR"}
+  Rotterdam: {Name: "Rotterdam", Lon: 4.285724307578558, Lat: 51.88705792704735, Country: "NL"}
+  Antwerpen: {Name: "Antwerpen", Lon: 4.383127132750798, Lat: 51.21669730674429, Country: "BE"}
+  Le Havre: {Name: "Le Havre", Lon: 0.1546986046853223, Lat: 49.469176031595275, Country: "FR"}
+  Genova: {Name: "Genova", Lon: 8.920952870186918, Lat: 44.398499544687496, Country: "IT"}
+  Milford Haven: {Name: "Milford Haven", Lon: -5.036299019199936, Lat: 51.7151705885081, Country: "GB"}
+  Bergen: {Name: "Bergen", Lon: 5.305589182911423, Lat: 60.38975160678877, Country: "NO"}
+  Algeciras: {Name: "Algeciras", Lon: -5.448828631694129, Lat: 36.13071856094972, Country: "ES"}
+  Hamburg: {Name: "Hamburg", Lon: 9.992383947081557, Lat: 53.54863553292674, Country: "DE"}
+  Valencia: {Name: "Valencia", Lon: -0.320856365273261, Lat: 39.44814419475718, Country: "ES"}
+  Dublin: {Name: "Dublin", Lon: -6.226654, Lat: 53.3434427, Country: "IE"}
+  Liverpool: {Name: "Liverpool", Lon: -2.9924011, Lat: 53.4099688, Country: "GB"}
+  Helsinki: {Name: "Helsinki", Lon: 24.954915, Lat: 60.167429, Country: "FI"}
+
+  

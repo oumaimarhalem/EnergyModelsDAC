@@ -1,0 +1,817 @@
+## Existing geothermal power plants in Europe
+114:
+  start_year: 1998
+  gross_cap_th: "NULL"
+  gross_cap_ele: 15.4
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 114
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1369
+  longitude: 10.8291
+  name_powerplant: "Carboli 1"
+123:
+  start_year: 2005
+  gross_cap_th: "NULL"
+  gross_cap_ele: 36.2
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 123
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1452
+  longitude: 10.8321
+  name_powerplant: "Nuova San Martino"
+110:
+  start_year: 2007
+  gross_cap_th: "NULL"
+  gross_cap_ele: 8.4
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 110
+  name_turbine_type: "ORC"
+  country_code: "IS"
+  latitude: 63.8786
+  longitude: -22.4328
+  name_powerplant: "Svartsengi"
+136:
+  start_year: 1998
+  gross_cap_th: "NULL"
+  gross_cap_ele: 19.9
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 136
+  name_turbine_type: "Single flash"
+  country_code: "IT"
+  latitude: 42.8422
+  longitude: 11.559
+  name_powerplant: "Bagnore 3"
+117:
+  start_year: 2009
+  gross_cap_th: "NULL"
+  gross_cap_ele: 12.7
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 117
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1667
+  longitude: 10.7846
+  name_powerplant: "Nuova Lagoni Rossi"
+145:
+  start_year: 1987
+  gross_cap_th: "NULL"
+  gross_cap_ele: 14.1
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 145
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2104
+  longitude: 11.0311
+  name_powerplant: "Pianacce"
+115:
+  start_year: 1997
+  gross_cap_th: "NULL"
+  gross_cap_ele: 15.4
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 115
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1361
+  longitude: 10.829
+  name_powerplant: "Carboli 2"
+153:
+  start_year: 2012
+  gross_cap_th: "NULL"
+  gross_cap_ele: 0.05
+  name_country: "Romania"
+  NUTS_AREA: "HU32"
+  id_powerplant: 153
+  name_turbine_type: "ORC"
+  country_code: "RO"
+  latitude: 47.0675
+  longitude: 21.9061
+  name_powerplant: "CE Iosia Nord"
+112:
+  start_year: 1998
+  gross_cap_th: "300"
+  gross_cap_ele: 120.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 112
+  name_turbine_type: "Single flash"
+  country_code: "IS"
+  latitude: 64.1082
+  longitude: -21.2566
+  name_powerplant: "Nesjavellir"
+342:
+  start_year: 2017
+  gross_cap_th: "5.233"
+  gross_cap_ele: 3.35
+  name_country: "Hungary"
+  NUTS_AREA: "HU11"
+  id_powerplant: 342
+  name_turbine_type: "ORC"
+  country_code: "HU"
+  latitude: 47.6038
+  longitude: 19.5598
+  name_powerplant: "Tura"
+151:
+  start_year: 1998
+  gross_cap_th: "NULL"
+  gross_cap_ele: 8.0
+  name_country: "Portugal"
+  NUTS_AREA: "PT20"
+  id_powerplant: 151
+  name_turbine_type: "ORC"
+  country_code: "PT"
+  latitude: 37.7823
+  longitude: -25.4892
+  name_powerplant: "Ribeira Grande 2"
+90:
+  start_year: 2001
+  gross_cap_th: "12"
+  gross_cap_ele: 1.0
+  name_country: "Austria"
+  NUTS_AREA: "AT31"
+  id_powerplant: 90
+  name_turbine_type: "ORC"
+  country_code: "AT"
+  latitude: 48.2502
+  longitude: 13.2345
+  name_powerplant: "Altheim"
+139:
+  start_year: 1990
+  gross_cap_th: "NULL"
+  gross_cap_ele: 20.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI2"
+  id_powerplant: 139
+  name_turbine_type: "Single flash"
+  country_code: "IT"
+  latitude: 42.8332
+  longitude: 11.7003
+  name_powerplant: "Piancastagnaio 3"
+104:
+  start_year: 2007
+  gross_cap_th: "38"
+  gross_cap_ele: 3.36
+  name_country: "Germany"
+  NUTS_AREA: "DE21"
+  id_powerplant: 104
+  name_turbine_type: "Kalina"
+  country_code: "DE"
+  latitude: 48.0238
+  longitude: 11.6209
+  name_powerplant: "Unterhaching"
+91:
+  start_year: 2001
+  gross_cap_th: "7.5"
+  gross_cap_ele: 0.2
+  name_country: "Austria"
+  NUTS_AREA: "AT22"
+  id_powerplant: 91
+  name_turbine_type: "ORC"
+  country_code: "AT"
+  latitude: 47.1244
+  longitude: 16.0434
+  name_powerplant: "Bad Blumau"
+150:
+  start_year: 1994
+  gross_cap_th: "NULL"
+  gross_cap_ele: 5.0
+  name_country: "Portugal"
+  NUTS_AREA: "PT20"
+  id_powerplant: 150
+  name_turbine_type: "ORC"
+  country_code: "PT"
+  latitude: 37.7823
+  longitude: -25.4892
+  name_powerplant: "Ribeira Grande 1"
+122:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 8.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 122
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1517
+  longitude: 10.8497
+  name_powerplant: "Nuova Monterotondo"
+111:
+  start_year: 1978
+  gross_cap_th: "NULL"
+  gross_cap_ele: 60.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 111
+  name_turbine_type: "Double flash"
+  country_code: "IS"
+  latitude: 65.7029
+  longitude: -16.7744
+  name_powerplant: "Krafla"
+148:
+  start_year: 2000
+  gross_cap_th: "NULL"
+  gross_cap_ele: 16.5
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 148
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1711
+  longitude: 11.0389
+  name_powerplant: "Travale 3"
+92:
+  start_year: 2001
+  gross_cap_th: "42.3"
+  gross_cap_ele: 0.6
+  name_country: "Austria"
+  NUTS_AREA: "DE22"
+  id_powerplant: 92
+  name_turbine_type: "Other"
+  country_code: "AT"
+  latitude: 48.2573
+  longitude: 13.011
+  name_powerplant: "Simbach/Braunau"
+98:
+  start_year: 2014
+  gross_cap_th: "40"
+  gross_cap_ele: 4.3
+  name_country: "Germany"
+  NUTS_AREA: "DE21"
+  id_powerplant: 98
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 48.02
+  longitude: 11.5626
+  name_powerplant: "Oberhaching-Laufzorn"
+118:
+  start_year: 1996
+  gross_cap_th: "NULL"
+  gross_cap_ele: 18.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 118
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1962
+  longitude: 10.8322
+  name_powerplant: "Le Prata"
+119:
+  start_year: 1997
+  gross_cap_th: "NULL"
+  gross_cap_ele: 17.8
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 119
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1861
+  longitude: 10.7655
+  name_powerplant: "Monteverdi1"
+125:
+  start_year: 2009
+  gross_cap_th: "NULL"
+  gross_cap_ele: 16.7
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 125
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1755
+  longitude: 10.854
+  name_powerplant: "Sasso 2"
+130:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 19.1
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 130
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2611
+  longitude: 10.8854
+  name_powerplant: "Nuova Gabbro"
+95:
+  start_year: 2010
+  gross_cap_th: "NULL"
+  gross_cap_ele: 1.5
+  name_country: "France"
+  NUTS_AREA: "DEB3"
+  id_powerplant: 95
+  name_turbine_type: "ORC"
+  country_code: "FR"
+  latitude: 48.9353
+  longitude: 7.86525
+  name_powerplant: "Soultz-sous-forets"
+126:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 47.5
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 126
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2042
+  longitude: 10.8002
+  name_powerplant: "Nuova Serrazzano"
+108:
+  start_year: 2000
+  gross_cap_th: "14"
+  gross_cap_ele: 2.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 108
+  name_turbine_type: "Kalina"
+  country_code: "IS"
+  latitude: 66.0476
+  longitude: -17.3435
+  name_powerplant: "Husavik"
+103:
+  start_year: 2012
+  gross_cap_th: "4"
+  gross_cap_ele: 5.0
+  name_country: "Germany"
+  NUTS_AREA: "DE21"
+  id_powerplant: 103
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 47.9724
+  longitude: 11.6686
+  name_powerplant: "Sauerlach"
+93:
+  start_year: 1986
+  gross_cap_th: "NULL"
+  gross_cap_ele: 4.0
+  name_country: "France"
+  NUTS_AREA: "PT20"
+  id_powerplant: 93
+  name_turbine_type: "Dry steam"
+  country_code: "FR"
+  latitude: 16.1371
+  longitude: -61.7674
+  name_powerplant: "Bouillante I"
+124:
+  start_year: 1996
+  gross_cap_th: "NULL"
+  gross_cap_ele: 14.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 124
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1755
+  longitude: 10.853
+  name_powerplant: "Nuova Sasso"
+343:
+  start_year: 2017
+  gross_cap_th: "0"
+  gross_cap_ele: 90.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 343
+  name_turbine_type: "Single flash"
+  country_code: "IS"
+  latitude: 65.89
+  longitude: -16.9618
+  name_powerplant: "Theistareykir"
+147:
+  start_year: 1988
+  gross_cap_th: "NULL"
+  gross_cap_ele: 19.1
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 147
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2103
+  longitude: 11.0354
+  name_powerplant: "Rancia 2"
+144:
+  start_year: 2010
+  gross_cap_th: "NULL"
+  gross_cap_ele: 19.4
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 144
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1931
+  longitude: 11.0451
+  name_powerplant: "Nuova Radicondoli 2"
+132:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 14.5
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 132
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2115
+  longitude: 10.8586
+  name_powerplant: "Nuova Molinetto"
+127:
+  start_year: 1999
+  gross_cap_th: "NULL"
+  gross_cap_ele: 18.3
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 127
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1809
+  longitude: 10.8832
+  name_powerplant: "Selva 1"
+116:
+  start_year: 1994
+  gross_cap_th: "NULL"
+  gross_cap_ele: 12.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 116
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.166
+  longitude: 10.806
+  name_powerplant: "Cornia 2"
+100:
+  start_year: 2013
+  gross_cap_th: "NULL"
+  gross_cap_ele: 7.0
+  name_country: "Germany"
+  NUTS_AREA: "DE21"
+  id_powerplant: 100
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 48.0272
+  longitude: 11.6878
+  name_powerplant: "Kirchstockach"
+140:
+  start_year: 1991
+  gross_cap_th: "NULL"
+  gross_cap_ele: 20.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI2"
+  id_powerplant: 140
+  name_turbine_type: "Single flash"
+  country_code: "IT"
+  latitude: 42.858
+  longitude: 11.7056
+  name_powerplant: "Piancastagnaio 4"
+141:
+  start_year: 1996
+  gross_cap_th: "NULL"
+  gross_cap_ele: 20.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI2"
+  id_powerplant: 141
+  name_turbine_type: "Single flash"
+  country_code: "IT"
+  latitude: 42.8569
+  longitude: 11.7029
+  name_powerplant: "Piancastagnaio 5"
+135:
+  start_year: 1992
+  gross_cap_th: "NULL"
+  gross_cap_ele: 55.3
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 135
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2362
+  longitude: 10.8675
+  name_powerplant: "Valle Secolo 2"
+344:
+  start_year: 2017
+  gross_cap_th: "0"
+  gross_cap_ele: 4.5
+  name_country: "Portugal"
+  NUTS_AREA: "PT20"
+  id_powerplant: 344
+  name_turbine_type: "ORC"
+  country_code: "PT"
+  latitude: 38.7295
+  longitude: -27.2509
+  name_powerplant: "Pico Alto"
+146:
+  start_year: 1986
+  gross_cap_th: "NULL"
+  gross_cap_ele: 19.1
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 146
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.214
+  longitude: 11.0468
+  name_powerplant: "Rancia 1"
+138:
+  start_year: 2014
+  gross_cap_th: "NULL"
+  gross_cap_ele: 40.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 138
+  name_turbine_type: "Single flash"
+  country_code: "IT"
+  latitude: 42.8407
+  longitude: 11.5575
+  name_powerplant: "Bagnore 4"
+106:
+  start_year: 2006
+  gross_cap_th: "400"
+  gross_cap_ele: 270.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 106
+  name_turbine_type: "Double flash"
+  country_code: "IS"
+  latitude: 64.0372
+  longitude: -21.4008
+  name_powerplant: "Hellisheidi 1"
+109:
+  start_year: 1977
+  gross_cap_th: "150"
+  gross_cap_ele: 66.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 109
+  name_turbine_type: "Single flash"
+  country_code: "IS"
+  latitude: 63.8786
+  longitude: -22.4328
+  name_powerplant: "Svartsengi"
+94:
+  start_year: 2003
+  gross_cap_th: "NULL"
+  gross_cap_ele: 11.0
+  name_country: "France"
+  NUTS_AREA: "PT20"
+  id_powerplant: 94
+  name_turbine_type: "Dry steam"
+  country_code: "FR"
+  latitude: 16.1371
+  longitude: -61.7674
+  name_powerplant: "Bouillante II"
+107:
+  start_year: 2007
+  gross_cap_th: "NULL"
+  gross_cap_ele: 33.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 107
+  name_turbine_type: "Double flash"
+  country_code: "IS"
+  latitude: 64.0372
+  longitude: -21.4008
+  name_powerplant: "Hellisheidi 2"
+102:
+  start_year: 2007
+  gross_cap_th: "5"
+  gross_cap_ele: 0.79
+  name_country: "Germany"
+  NUTS_AREA: "DEB3"
+  id_powerplant: 102
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 49.1866
+  longitude: 8.12336
+  name_powerplant: "Landau"
+128:
+  start_year: 1995
+  gross_cap_th: "NULL"
+  gross_cap_ele: 52.4
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 128
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2385
+  longitude: 10.9045
+  name_powerplant: "Farinello"
+152:
+  start_year: 2006
+  gross_cap_th: "NULL"
+  gross_cap_ele: 13.0
+  name_country: "Portugal"
+  NUTS_AREA: "PT20"
+  id_powerplant: 152
+  name_turbine_type: "ORC"
+  country_code: "PT"
+  latitude: 37.8017
+  longitude: -25.5046
+  name_powerplant: "Pico Vermelho"
+129:
+  start_year: 2000
+  gross_cap_th: "NULL"
+  gross_cap_ele: 14.9
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 129
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2169
+  longitude: 10.9051
+  name_powerplant: "Nuova Castelnuovo"
+131:
+  start_year: 2005
+  gross_cap_th: "NULL"
+  gross_cap_ele: 16.6
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 131
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2042
+  longitude: 10.8002
+  name_powerplant: "Nuova Lardarello 3"
+120:
+  start_year: 1997
+  gross_cap_th: "NULL"
+  gross_cap_ele: 15.6
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 120
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1973
+  longitude: 10.7652
+  name_powerplant: "Monteverdi2"
+101:
+  start_year: 2013
+  gross_cap_th: "8"
+  gross_cap_ele: 4.8
+  name_country: "Germany"
+  NUTS_AREA: "DEB3"
+  id_powerplant: 101
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 49.1539
+  longitude: 8.15306
+  name_powerplant: "Insheim"
+105:
+  start_year: 1969
+  gross_cap_th: "NULL"
+  gross_cap_ele: 3.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 105
+  name_turbine_type: "Back pressure"
+  country_code: "IS"
+  latitude: 65.6469
+  longitude: -16.8469
+  name_powerplant: "Bjarnaflag"
+133:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 13.9
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 133
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2296
+  longitude: 10.9475
+  name_powerplant: "Sesta 1"
+137:
+  start_year: 2013
+  gross_cap_th: "NULL"
+  gross_cap_ele: 1.0
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 137
+  name_turbine_type: "ORC"
+  country_code: "IT"
+  latitude: 42.8422
+  longitude: 11.558
+  name_powerplant: "Bagnore Binary"
+99:
+  start_year: 2016
+  gross_cap_th: "12"
+  gross_cap_ele: 5.5
+  name_country: "Germany"
+  NUTS_AREA: "DE21"
+  id_powerplant: 99
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 47.9731
+  longitude: 12.5796
+  name_powerplant: "Traunreut"
+121:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 10.9
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 121
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1557
+  longitude: 10.8145
+  name_powerplant: "Nuova Lago"
+96:
+  start_year: 2009
+  gross_cap_th: "5.5"
+  gross_cap_ele: 0.44
+  name_country: "Germany"
+  NUTS_AREA: "DE12"
+  id_powerplant: 96
+  name_turbine_type: "Kalina"
+  country_code: "DE"
+  latitude: 49.1252
+  longitude: 8.5671
+  name_powerplant: "Bruchsal"
+149:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 38.9
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 149
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1686
+  longitude: 11.038
+  name_powerplant: "Travale 4"
+143:
+  start_year: 2002
+  gross_cap_th: "NULL"
+  gross_cap_ele: 39.5
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 143
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1934
+  longitude: 11.045
+  name_powerplant: "Nuova Radicondoli"
+113:
+  start_year: 2006
+  gross_cap_th: "NULL"
+  gross_cap_ele: 100.0
+  name_country: "Iceland"
+  NUTS_AREA: "IS00"
+  id_powerplant: 113
+  name_turbine_type: "Single flash"
+  country_code: "IS"
+  latitude: 63.8264
+  longitude: -22.6819
+  name_powerplant: "Reykjanesvirkjun"
+97:
+  start_year: 2012
+  gross_cap_th: "NULL"
+  gross_cap_ele: 7.0
+  name_country: "Germany"
+  NUTS_AREA: "DE21"
+  id_powerplant: 97
+  name_turbine_type: "ORC"
+  country_code: "DE"
+  latitude: 47.9961
+  longitude: 11.7259
+  name_powerplant: "Dürrnhaar"
+142:
+  start_year: 2010
+  gross_cap_th: "NULL"
+  gross_cap_ele: 19.4
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 142
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.1606
+  longitude: 11.0638
+  name_powerplant: "Chiusdino 1"
+134:
+  start_year: 1991
+  gross_cap_th: "NULL"
+  gross_cap_ele: 55.3
+  name_country: "Italy"
+  NUTS_AREA: "ITI1"
+  id_powerplant: 134
+  name_turbine_type: "Dry steam"
+  country_code: "IT"
+  latitude: 43.2362
+  longitude: 10.8675
+  name_powerplant: "Valle Secolo 1"
+
+future_cap: # MWel; obtained from power system model
+  CZ: [4.4, 4.4, 4.4, 4.4, 4.4, 4.4]
+  DE: [261.81, 261.81, 261.81, 261.81, 261.81, 261.81]
+  FR: [78.5, 78.5, 78.5, 78.5, 78.5, 78.5]
+  EL: [120, 120, 120, 120, 120, 120]
+  HU: [53.65, 53.65, 53.65, 53.65, 53.65, 53.65]
+  IT: [312.5, 312.5, 312.5, 312.5, 312.5, 312.5]
+  LV: [10, 10, 10, 10, 10, 10]
+  PT: [44.5, 44.5, 44.5, 44.5, 44.5, 44.5]
+  SK: [4, 4, 4, 4, 4, 4]
+  HR: [10, 10, 10, 10, 10, 10]

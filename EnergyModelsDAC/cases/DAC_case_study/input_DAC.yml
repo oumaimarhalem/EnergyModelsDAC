@@ -1,0 +1,269 @@
+## General parameters 
+capacity_max_installed: 1e6         
+capacity_max_added: 1e6           
+
+second_law_efficiency_limit: 0.30   # -
+minimum_thermodynamic_work: 0.1389  # GWh/ktCO2
+share_heat: 0.80                    # For DAC-S and DAC-L
+target_year:                        # Target year for lower-bound energy use and technology performance
+  DAC-S: 2075
+  DAC-L: 2075
+  DAC-M: 2100
+
+## Deployment data (MtCO2/yr)
+installed_capacity_global:          
+  DAC-S: 0.1985                     # Global DAC capacity announced for 2025 (SoCDR report)
+  DAC-L: 0.5                        # Global DAC capacity in 2025 (Carbon engineering)
+  DAC-M: 0.5                        # Own assumption for starting capacity in 2035                       
+installed_capacity_Europe:            
+  DAC-S: 0.10                       # Own assumption for share of total capacity announced for 2025 
+  DAC-L: 1e-5
+  DAC-M: 1e-5 
+
+removal_target: 980                 # Global removal target for 2050 (IEA 2022)
+# removal_target: 2000                # Mid-range potential for DAC in 2050 (Smith et al. 2023)
+# removal_target: 460                # Low-CDR scenario, assuming constant share for Europe (EC 2024)
+storage_target: 630                 # Share for CO2 storage for 2050 (IEA 2022)
+# storage_target: 1286                 # High-CDR scenario, assuming similar shares as in IEA 2022 (Smith et al. 2023)
+# storage_target: 296                 #  Low-CDR scenario, assuming constant share for Europe (EC 2024)
+
+share_DAC-S: 0.4                    # Assumed share for solid sorbent technologies
+share_DAC-L: 0.4                    # Assumed share for liquid solvent technologies
+share_DAC-M: 0.2                    # Assumed share for bipolar membrane technologies
+share_Europe_2050: 0.1758           # Allocated share for Europe (based on CPCE approach; Fyson et al. 2020)
+# share_Europe_2050: 0.05369             # Allocated share for Europe (based on EQ approach; Pozo et al. 2020)
+# share_Europe_2050: 0.21             # Allocated share for Europe (based on AP approach; Fyson et al. 2020)
+
+capacity_2100: 12600                # IPCC 2023; 95th percentile estimate
+share_Europe_2100: 0.1451           # Allocated share for Europe (based on CPCE approach; Fyson et al. 2020)
+# share_Europe_2100: 0.04267            # Allocated share for Europe (based on EQ approach; Pozo et al. 2020)
+# share_Europe_2100: 0.209            # Allocated share for Europe (based on AP approach; Fyson et al. 2020)
+
+## Initial solid sorbent DAC         (Sievert et al. 2024)
+DAC-S_initial:
+  plant_size: 4                       # ktCO2/yr
+
+  EPC: 15.5                           # M$2022
+  project_contingency: 0.35           # Share of EPC
+  process_contingency: 0.125          # Share of EPC 
+  owners_cost: 0.07                   # Share of TPC
+  spare_parts: 0.005                  # Share of TPC
+  startup_capital: 0.02               # Share of TPC
+  startup_cost: 0.026                 # M$2022; startup labor, fuel, and chemicals 
+  opex_fixed:                         
+    labour: 80270.83                  # $2022/yr
+    maintenance: 0.015                # Share of TPC
+    indirect_labour: 0.30             # Share of direct labor and maintenance
+    insurance: 0.005                  # Share of TPC
+    taxes: 0.005                      # Share of TPC
+
+## Main solid sorbent DAC            (Sabatino et al. 2021; Valentine et al. 2022)
+DAC-S:
+  plant_size: 100                   # ktCO2/yr
+  capacity_factor: 0.90             # Maximum (-)
+  capacity_factor_min: 0.85         # Minimum (-) 
+  plant_lifetime: 25                # yrs
+  plant_power_consumption: 0.01428  # GWhel/ktCO2
+  modules: 398                      # given module capacity of 251.3 tCO2/yr
+  contactor_volume: 3.375           # m3/module
+
+# Process-specific parameters 
+  inlet_air_flow: 8.9               # m3/s/module
+  vacuum_factor: 0.037              # lbs per hour (Grimm 2023)
+  pressure_drop: 138                # Pa
+  vacuum_pressure: 0.028            # MPa
+  cycle_time: 0.56                  # hr
+  regeneration_temperature: 100     # deg C
+  productivity: 8.5                 # kgCO2/m3/h
+  power_consumption: 0.236          # GWhel/ktCO2; initial
+  heat_consumption: 1.986           # GWhth/ktCO2; initial 
+  sorbent_consumption:              # kg/tCO2 captured (Deutz and Bardow 2021)
+    initial: 7.5
+    future: 3.0
+  water_demand: 1.855               # m3/tCO2
+  chemicals_demand: 0.773           # kg/tCO2
+
+# Base cost data (Valentine et al. 2022)
+  plant_costs:                      # k$
+    sorbent_handling: 553
+    sorbent_preparation: 290
+    feedwater: 3148
+    cooling_water: 3220
+    spent_sorbent_handling: 1082
+    accessory_electric: 8796
+    control: 10091
+    site_improvement: 5838
+    building: 1943
+  ECM_fee: 0.20                     # Share of bare erected cost
+  process_contingency:              # Share of bare erected cost
+    control: 0.05
+    DAC_unit: 0.10 
+  project_contingency: 0.195        # Share of bare erected cost (average across components)
+  owners_costs:
+    preproduction_cost: 8074
+    inventory_capital: 792
+    other: 25254
+  TASC_multiplier: 1.093
+  opex_fixed:                       # k$/yr
+    labor:
+      operating: 3508
+      maintenance: 1068
+      support: 1144
+    maintenance_material: 1602
+    tax_and_insurance: 2811
+
+  opex_variable:
+    sorbent: 30                   # $/kg
+    sorbent_disposal: 0.043       # $/kg
+    water: 0.50                   # $/m3
+    chemicals: 0.55               # $/kg
+  learning_rate:                  # (Sievert et al. 2024)
+    capex: 0.12     
+    opex_variable: 0.025          
+
+## Initial liquid solvent DAC     (Sievert et al. 2024)
+DAC-L_initial:
+  plant_size: 100                   # ktCO2/yr
+
+  plant_cost:                       # M$2022 scaled for 100 ktCO2/yr plant
+    contactor: 26.1
+    pellet_reactor: 21.7
+    calciner: 5.81
+    slaker: 13.3
+    ASU: 4.98
+    fines_filter: 3.47
+    compressor: 1.70
+    steam_turbine: 1.15
+    buildings: 1.27
+  installation_cost: 0.63           # Share of direct material cost
+  EPC_factor: 0.15                  # Share of direct material and installation
+  project_contingency: 0.35         # Share of EPC
+  process_contingency: 0.50         # Share of EPC
+  owners_cost: 0.07                 # Share of TPC
+  spare_parts: 0.005                # Share of TPC
+  startup_capital: 0.02             # Share of TPC
+  startup_cost: 0.50                # M$2022
+  opex_fixed:
+    labour: 2.0                     # M$2022/yr
+    maintenance: 0.015              # Share of TPC
+    indirect_labour: 0.30           # Share of direct labour and maintenance
+    insurance: 0.005                # Share of TPC
+    taxes: 0.005                    # Share of TPC
+
+## Liquid solvent DAC             
+DAC-L:                            # (Sabatino et al. 2020; Keith et al. 2018; Valentine et al. 2022)
+  plant_size: 904                 # ktCO2-net/yr
+  plant_lifetime: 25              # yr
+  capacity_factor: 0.90 
+  capacity_factor_min: 0.85       # Minimum (-) 
+  plant_power_consumption:        # GWhel/ktCO2
+    auxiliary: 0.0348        
+    slaker: 0.032
+
+  # Process-specific parameters   
+  productivity: 0.45              # kgCO2/m3/hr
+  power_consumption: 0.3972       # GWhel/ktCO2; initial
+  power_output: 0.077             # GWhel/ktCO2
+  heat_consumption: 1.4028        # GWhth/ktCO2; initial
+  share_CO2_capture: 0.975
+  sorbent_consumption: 23.3        # kgKOH/tCO2-net (Valentine et al. 2022) 
+  carbonate_consumption: 36.0       # kgCaOH/tCO2-net (Valentine et al. 2022)
+  water_demand: 9.6               # m3/tCO2
+
+  # Cost data                     (Valentine et al. 2022)
+  plant_costs:                      # k$
+    material_handling: 6196
+    material_preparation: 2508
+    feedwater: 65205
+    compression: 28019
+    combustion: 25213
+    HRSG: 11633
+    steam_turbine: 10423
+    cooling_water: 25534
+    accessory: 49237
+    control: 17469
+    site_improvements: 7342
+    buildings: 6180
+  DAC_unit_costs:
+    absorber: 34979
+    air_contactor: 124673
+    pellet_reactor: 193388
+    slaker: 32129
+    ASU: 107799
+    calciner: 64852
+    foundations: 16701
+  ECM_fee: 0.20                   # Share of bare erected costs
+  process_contingency:            # Share of bare erected costs
+    control: 0.05
+    DAC_unit: 0.10 
+  project_contingency: 0.197      # Share of bare erected costs
+  owners_costs:
+    preproduction_cost: 38552
+    inventory_capital: 12606
+    other: 216848
+  TASC_multiplier: 1.093
+  opex_fixed:                     # k$/yr
+    labor:
+      operating: 3508
+      maintenance: 9238
+      support: 3186
+    maintenance_material: 13856
+    tax_and_insurance: 24309
+
+  water_price: 0.50               # $/m3
+  carbonate_price: 0.5            # $/kg
+  sorbent_price: 0.6              # $/kg
+  chemicals_cost: 5               # $/tCO2-net; wastewater treatment and triethylene glycol
+
+  waste_disposal: 3               # $/tCO2-net
+
+  learning_rate:                  # (Sievert et al. 2024)
+    capex: 0.08
+    opex_var: 0.025
+  
+## Bipolar membrane DAC           (Sabatino et al. 2020; 2022)
+DAC-M:
+  plant_size: 1000                # ktCO2/yr
+  cells: 2400                     # -/stack
+  cell_area: 1.785                # m2 
+  plant_lifetime: 20              # yr
+  capacity_factor: 0.90
+  capacity_factor_min: 0.85         # Minimum (-) 
+
+  # Process-specific parameters  
+  productivity: 1.24              # kgCO2/m2/hr
+  power_consumption: 6.7778       # GWhel/ktCO2; initial
+  membrane_lifetime:              # yr (Iizuka et al. 2012)
+    initial: 0.5
+    future: 3
+  water_demand: 4.7               # m3/tCO2
+
+  # Cost data               
+  plant_costs:                    # bare erected cost in M$
+    contactor: 185.6 
+    compressor: 24.2
+    other: 4.325 
+    material_handling: 6.196      # Estimate for DAC-L (Valentine et al. 2022)
+    material_preparation: 2.508   # Estimate for DAC-L (Valentine et al. 2022)
+    feedwater: 65.205             # Estimate for DAC-L (Valentine et al. 2022)
+    accessory: 49.237             # Estimate for DAC-L (Valentine et al. 2022)
+    control: 17.469               # Estimate for DAC-L (Valentine et al. 2022)
+    site_improvements: 7.342      # Estimate for DAC-L (Valentine et al. 2022)
+    buildings: 6.180              # Estimate for DAC-L (Valentine et al. 2022)
+  BPMED_unit_costs:
+    stack: 1.0                    # M$/unit
+    IEM: 75                       # $/m2
+    BPM: 750                      # $/m2
+  installation_cost: 0.80         # Share of bare erected cost
+  indirect_cost: 0.14             # Share of direct plant cost
+  contingency: 0.30               # Share of total plant cost; own assumption
+  owner's cost: 0.05              # Share of total plant cost
+  OPEX_fixed:  
+    labor: 1.5                    # M$/yr
+    maintenance: 0.025            # Share of total capex
+    insurance: 0.02               # Share of total capex
+  OPEX_var: 
+    water: 2                      # $/m3
+  learning_rate:                  # Assumed similar to DAC-L (Sievert et al. 2024)         
+    capex: 0.08 
+

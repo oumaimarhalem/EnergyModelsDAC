@@ -1,0 +1,139 @@
+OBJECTID;STORAGE_UNIT_NAME;ASSESS_UNIT_TYPE;STORAGE_TYPE;GROSS_THICK_MEAN;DEPTH_MEAN;PRESSURE_MEAN;TEMP_C_MEAN;PERM_MEAN;CO2_DENSIT;TOTAL_STORE_CAP;COUNTRYCODE;LONG;LAT;ONSHORE
+296;SLG-1;Saline Aquifer without hydrocarbon fields;0;200;1000;0;0;0;740;4.44;SI;14.515258;46.053046;1
+482;Bruce Sandstone Unit 1;Saline Aquifer with hydrocarbon fields;1;200;3000;400;113;50;600;4.56;GB;1.622360492;59.40810415;0
+289;LJB-1;Saline Aquifer without hydrocarbon fields;0;100;1500;0;0;0;720;4.608;SI;14.76166667;46.05222222;1
+292;VIP-2;Saline Aquifer without hydrocarbon fields;0;400;900;0;0;0;860;5.418;SI;13.80916667;45.89083333;1
+302;MBR-3;Saline Aquifer without hydrocarbon fields;0;70;1000;0;0;0;290;6.09;SI;15.75;46.67666667;1
+453;Skroo Sandstone Unit 3;Saline Aquifer without hydrocarbon fields;0;25;2000;210;78;500;700;6.166125;GB;1.489542175;59.03576845;0
+301;MBR-2;Saline Aquifer without hydrocarbon fields;0;80;800;0;0;0;190;8.208;SI;14.54166;46.341951;1
+353;Lab SU;Saline Aquifer with hydrocarbon fields;1;80;1000;100;45;300;630;8.4672;SK;16.98305556;48.37638889;1
+517;Brae Formation Unit 2;Saline Aquifer with hydrocarbon fields;1;300;3500;480;127;175;700;8.6688;GB;1.257630775;58.37359571;0
+26;Houtem and Maastricht SU;Saline Aquifer without hydrocarbon fields;0;65;775;72;40.6;65;610;8.983203125;BE;4.317238;50.840887;1
+293;VIP-3;Saline Aquifer without hydrocarbon fields;0;400;800;0;0;0;840;9.072;SI;13.76888889;45.91277778;1
+175;Pandino 1 - Lombardia 2 SU;Saline Aquifer without hydrocarbon fields;0;621;1465;50;0;0;700;9.9320256;IT;9.463889;45.413611;1
+316;ILB-1;Saline Aquifer without hydrocarbon fields;0;200;800;0;0;0;830;11.952;SI;14.14388889;45.58722222;1
+520;Firth Coal Unit 3;Saline Aquifer without hydrocarbon fields;0;350;3000;385;130;10;700;12.495;GB;-1.611670977;56.72668692;0
+288;KRP-1;Saline Aquifer without hydrocarbon fields;0;200;1000;0;0;0;725;14.5;SI;14.35083333;46.26305556;1
+355;Vysoka SU;Saline Aquifer with hydrocarbon fields;1;60;1390;139;45;280;693;14.702688;SK;16.91138889;48.34333333;1
+294;VIP-4;Saline Aquifer without hydrocarbon fields;0;400;1000;0;0;0;840;15.12;SI;13.70388889;45.91916667;1
+477;Birch Sandstone Member;Saline Aquifer with hydrocarbon fields;1;289;4000;500;130;10;700;23.31264;GB;1.314870863;58.57685962;0
+500;Bruce Sandstone Unit 3;Saline Aquifer without hydrocarbon fields;0;200;2500;400;113;50;600;17.52;GB;1.64907591;59.76576327;0
+518;Brae Formation Unit 3;Saline Aquifer with hydrocarbon fields;1;600;4300;500;120;75;700;18.018;GB;1.292373828;58.48189735;0
+27;Buntsandstein SU;Saline Aquifer without hydrocarbon fields;0;200;1550;152;65;37;600;18.693;BE;4.078155;50.409489;1
+52;Nova Paka;Saline Aquifer without hydrocarbon fields;0;37;1200;120;45;10;754;20.68112218;CZ;15.57111111;50.54722222;1
+486;Emerald Formation;Saline Aquifer with hydrocarbon fields;1;15;1600;178;64;500;600;22.0248;GB;1.046047033;60.63316235;0
+157;Hajdúsági;Saline Aquifer without hydrocarbon fields;0;197.75;0;170;0;0;563.51;24.80681567;HU;21.48083333;47.52305556;1
+448;Hermod Sandstone Unit;Saline Aquifer without hydrocarbon fields;0;100;2100;216;81;500;600;25.2672;GB;2.004048129;59.86255188;0
+499;Bruce Sandstone Unit 2;Saline Aquifer without hydrocarbon fields;0;200;3000;400;113;50;600;27.36;GB;1.44158769;59.54083262;0
+530;Stroma Member 2;Saline Aquifer without hydrocarbon fields;0;25;3000;315;113;20;700;27.65;GB;-0.109882369;58.58919791;0
+204;Priabonian sandstone Veles;Saline Aquifer without hydrocarbon fields;0;400;593;95;55;10;295;28.32;MK;21.81194444;41.78777778;1
+155;Szegedi;Saline Aquifer without hydrocarbon fields;0;352.56;0;306;0;0;581;29.31321968;HU;20.15833333;46.40638889;1
+458;Balder Sandstone Unit;Saline Aquifer with hydrocarbon fields;1;3;1200;120;44;3000;671;91.2239434;GB;1.297056906;58.25739527;0
+295;VIP-5;Saline Aquifer without hydrocarbon fields;0;300;1000;0;0;0;840;34.02;SI;13.69277778;45.92111111;1
+25;Neeroeteren SU;Saline Aquifer without hydrocarbon fields;0;200;1400;141;60;115;566;34.490625;;5.518055556;51.16972222;1
+159;Nyugat-kisalföld;Saline Aquifer without hydrocarbon fields;0;216.84;0;190;0;0;551.57;36.12175148;HU;16.89111111;47.42027778;1
+160;Kelet-kisalföldi;;1;255.73;0;217;0;0;565.04;38.03950173;HU;17.45055556;47.46694444;1
+45;Upper Marine Molasse;Saline Aquifer without hydrocarbon fields;0;450;1250;125;51;300;675;39.90211875;CH;9.129435118;47.40360998;1
+156;Kiskunsági;Saline Aquifer without hydrocarbon fields;0;200.76;0;184;0;0;547.36;39.94298075;HU;19.79861111;46.73638889;1
+203;Priabonian sandstone Sveti Nikole;Saline Aquifer without hydrocarbon fields;0;400;770;95;55;10;295;42.48;MK;21.905;41.85361111;1
+154;Északalföldi;Saline Aquifer without hydrocarbon fields;0;240.5;0;181;0;0;553.66;43.33488642;HU;20.46472222;47.67;1
+28;Dinantian North SU;Saline Aquifer without hydrocarbon fields;0;775;1400;141;60;225;566;43.42635;BE;3.922714;50.523381;1
+188;Furci 9 - Abruzzi 2 SU;Saline Aquifer without hydrocarbon fields;0;130;1265;0;0;0;650;54.756;IT;14.36361111;42.26277778;1
+493;Strath Rory Formation;Saline Aquifer without hydrocarbon fields;0;1000;3000;315;113;0.1;700;55.8432;GB;-1.689003401;58.17504061;0
+178;Filetto1 - Emilia 2 SU;Saline Aquifer without hydrocarbon fields;0;188;1325;0;49.85;0;680;56.97203407;IT;12.071389;44.3225;1
+494;Stroma Member 1;Saline Aquifer without hydrocarbon fields;0;25;3000;315;113;20;700;60.83;GB;-0.270809305;57.91356974;0
+449;Skadan Sandstone Unit;Saline Aquifer without hydrocarbon fields;0;25;2100;220;82;500;695;66.146625;GB;1.428698659;58.84081626;0
+187;Biddusa 2 - Sicilia 1 SU;Saline Aquifer without hydrocarbon fields;0;185;1145;0;0;0;640;70.5043584;IT;12.508333;37.772778;1
+202;Priabonian sandstone Ergelija;Saline Aquifer without hydrocarbon fields;0;830;761;80;65;10;182;72.5088;MK;22.06888889;41.85361111;1
+481;Brora Coal Formation;Saline Aquifer without hydrocarbon fields;0;50;2000;200;78;20;600;76.86;GB;3.173830197;58.04728858;0
+525;Skagerrak Unit 3;Saline Aquifer without hydrocarbon fields;0;400;3250;348;122;10;700;79.016;GB;-0.189424745;57.71737165;0
+326;Bzovík Mezozoic SU;Saline Aquifer without hydrocarbon fields;0;200;1700;170;60.85;300;630;79.38;SK;19.08527778;48.32472222;1
+184;Licia 1 - Calabria 1 SU;Saline Aquifer without hydrocarbon fields;0;301;1300;0;0;0;650;79.5657681;IT;16.581111;39.665556;0
+200;Cambrian Sandstone;Saline Aquifer with hydrocarbon fields;1;60;1500;150;60;100;610;89.4361489;;20.72416667;56.04083333;1
+490;Orrin Formation;Saline Aquifer without hydrocarbon fields;0;50;2500;275;100;50;700;88.4646;GB;-3.069787515;58.11731044;0
+498;Argyll Carbonate Member;Saline Aquifer with hydrocarbon fields;1;20;2000;214;78;10;735;110.8974;GB;2.589333294;55.61560804;0
+503;Nansen Unit 1;Saline Aquifer without hydrocarbon fields;0;50;3500;368;130;50;700;102.5325;GB;1.683194948;59.57500693;0
+483;Buchan Formation Unit;Saline Aquifer with hydrocarbon fields;1;500;2500;300;95;1;700;105;GB;1.146944444;57.61333333;0
+174;Casirate 1 - Lombardia 1 SU;Saline Aquifer without hydrocarbon fields;0;193;1185;6;0;0;650;105.98016;IT;9.563056;45.489722;1
+49;Zatec;Saline Aquifer without hydrocarbon fields;0;183;1100;110;40;10;781;112.2345734;;13.45611111;50.28444444;1
+51;Mnichovo Hradiste;Saline Aquifer without hydrocarbon fields;0;131;1000;100;44;18;683;114.6041762;CZ;14.90833333;50.4075;1
+31;Hainaut Geothermal aquifer SU;Saline Aquifer without hydrocarbon fields;0;1500;1600;161;66;12.5;576;121.5;BE;3.366663;50.131606;1
+478;Brae Formation Unit 1;Saline Aquifer with hydrocarbon fields;1;200;3500;491;123;100;700;487.3666;GB;1.402289002;58.73056033;0
+324;TransCaarpathian basin Sarmathian SU;Saline Aquifer with hydrocarbon fields;1;130;1100;110;42.85;150;645;169.0416;SK;24.65666667;46.41472222;1
+136;Osijek;Saline Aquifer without hydrocarbon fields;0;2500;2250;225;132;90;418;180.3262741;HR;18.64888889;45.46722222;1
+186;Fosca 1 - Calabria mare 2 SU;Saline Aquifer without hydrocarbon fields;0;670;1240;0;0;0;650;186.7437936;IT;16.896944;38.438889;0
+466;Westcoe Coal Unit;Saline Aquifer with hydrocarbon fields;1;200;3000;321;113;5;700;246.109;GB;1.949268322;53.41221503;0
+480;Britannia Sandstone Formation;Saline Aquifer with hydrocarbon fields;1;100;3500;400;125;30;700;193.2525;GB;0.958721235;57.98727857;0
+50;Roudnice;Saline Aquifer without hydrocarbon fields;0;184;1130;115;48;8;688;200.157143;CZ;14.2575;50.39444444;1
+185;Lara 1 - Calabria mare 1 SU;Saline Aquifer without hydrocarbon fields;0;557;1062.5;0;0;0;610;205.7297836;IT;17.170833;39.213333;0
+528;Skagerrak Unit 6;Saline Aquifer without hydrocarbon fields;0;400;3250;348;122;10;700;206.108;GB;0.464189355;57.11599256;0
+474;Alness Spiculite Member;Saline Aquifer without hydrocarbon fields;0;40;2500;257;87;0.5;625;209.125;GB;2.240291651;58.19647436;0
+450;Teal Sandstone Member;Saline Aquifer without hydrocarbon fields;0;65;2000;210;78;500;700;221.2938;GB;1.861466883;59.98601885;0
+325;TransCarpathian basin Pannonian SU;Saline Aquifer without hydrocarbon fields;0;120;750;75;31.8;150;615;223.1712;SK;21.9575;48.59888889;1
+489;Orcadia Formation Unit;Saline Aquifer without hydrocarbon fields;0;1000;2000;205;94;0.1;700;228.305;GB;-1.116831039;58.5480616;0
+526;Skagerrak Unit 4;Saline Aquifer without hydrocarbon fields;0;400;3250;348;122;10;700;233.24;GB;-0.266142;58.5050536;0
+180;Serena Nord 1 - Emilia mare SU;Saline Aquifer without hydrocarbon fields;0;800;1325;140;45.85;6.7;650;234;IT;12.959167;44.11;0
+496;Statfjord  Unit 2;Saline Aquifer with hydrocarbon fields;1;80;3800;400;141;450;700;254.43264;GB;1.700832542;60.87246079;0
+43;Hauptrogenstein;Saline Aquifer without hydrocarbon fields;0;100;1500;150;58;0.25;675;267.0089063;CH;7.409306731;47.06715917;1
+527;Skagerrak Unit 5;Saline Aquifer without hydrocarbon fields;0;400;3250;348;122;10;700;277.508;GB;1.032828881;56.75116877;0
+137;Sava West;Saline Aquifer with hydrocarbon fields;1;1500;1550;155;88;90;400.89;318.5270633;HR;16.3025;45.66361111;1
+443;Tay Sandstone Member;Saline Aquifer without hydrocarbon fields;0;75;2200;227;85;400;700;339.066;GB;0.931109112;57.23100116;0
+455;Ormskirk Sandstone Unit 3;Saline Aquifer without hydrocarbon fields;0;200;860.21;92;29.63;100;725;339.416;GB;-4.015058343;54.61267194;0
+441;Frigg Sandstone Member;Saline Aquifer without hydrocarbon fields;0;55;1850;198;61;1500;714;370.4386224;GB;1.787312393;60.26116908;0
+445;Cromarty Sandstone member;Saline Aquifer without hydrocarbon fields;0;75;1400;140;56;500;600;372.1788;GB;0.48367111;57.65877357;0
+495;Statfjord Unit 1;Saline Aquifer with hydrocarbon fields;1;190;3500;368;130;450;700;390.44544;GB;1.691080855;59.57640081;0
+465;Bridport Sands Unit;Saline Aquifer without hydrocarbon fields;0;60;800;80;35;10;696;393.788448;GB;-2.362227552;50.43990603;0
+447;Flugga Sandstone Unit;Saline Aquifer with hydrocarbon fields;1;60;1675;184;67;6000;600;431.218705;GB;1.241960125;58.88268013;0
+438;Hewett Sandstone;Saline Aquifer with hydrocarbon fields;1;26;1400;150;52;750;600;431.227368;GB;2.098288917;52.75632531;0
+505;Zechsteinkalk Unit;Saline Aquifer with hydrocarbon fields;1;90;1400;150;7;1;700;463.4623;GB;1.711237137;52.90913671;0
+322;Danube basin Pannonian SU;Saline Aquifer without hydrocarbon fields;0;40;2800;280;93.85;100;670;496.7424;SK;17.74805556;48.035;1
+485;Claymore Sandstone Member;Saline Aquifer with hydrocarbon fields;1;120;3000;320;113;50;600;507.6;GB;0.057532184;58.37975968;0
+44;Trigonodus Dolomite;Saline Aquifer without hydrocarbon fields;0;60;1500;150;75;30;675;551.7801;CH;7.987217726;47.29608852;1
+181;Jesi 6 - Marche 1 SU;Saline Aquifer without hydrocarbon fields;0;200;1300;16;0;0;650;561.6;IT;13.260278;43.578611;1
+504;Nansen Unit 2;Saline Aquifer without hydrocarbon fields;0;50;3500;368;130;50;700;592.2315;GB;1.383649969;61.02533293;0
+148;Dugi Otok;Saline Aquifer without hydrocarbon fields;0;1170;1515;151.5;44;0;754.75;601.6515944;HR;14.89;43.82333333;0
+524;Skagerrak Unit 2;Saline Aquifer without hydrocarbon fields;0;400;3250;348;122;10;700;604.044;GB;0.01791139;58.90608782;0
+177;S.Pietro in Casale 3 - Emilia 1 SU;Saline Aquifer without hydrocarbon fields;0;615;1253;98;0;0;610;649.9677416;IT;11.391944;44.716667;1
+138;Sava Central;Saline Aquifer with hydrocarbon fields;1;1700;1850;185;97;90;450.41;684.2328745;HR;16.79361111;45.41305556;1
+476;Beatrice Formation Unit;Saline Aquifer with hydrocarbon fields;1;50;2000;200;80;50;594;751.12488;GB;-2.678314764;58.13984376;0
+183;Pomarico 7 - Basilicata 1 SU;Saline Aquifer without hydrocarbon fields;0;200;1225;0;0;0;650;766.35;IT;16.489444;40.518889;1
+182;Notaresco 1 - Abruzzi 1 SU;Saline Aquifer without hydrocarbon fields;0;281;1295;76;0;0;650;778.099959;IT;13.956944;42.650833;1
+323;Danube basin Pontian SU;Saline Aquifer without hydrocarbon fields;0;120;1900;190;66.85;200;655;784.7424;SK;17.74805556;48.035;1
+497;Captain Sandstone Member;Saline Aquifer with hydrocarbon fields;1;60;900;92;30;7000;700;805.72968;GB;-1.778740867;58.31936376;0
+176;Poggio Rusco 1 - Lombardia 3 SU;Saline Aquifer without hydrocarbon fields;0;330;1165;0;0;0;620;824.9472;IT;11.176389;44.947222;1
+46;Malm limestones;Saline Aquifer without hydrocarbon fields;0;500;1200;120;49;0.05;675;991.25775;CH;7.706434637;47.06283897;1
+484;Burns Sandstone Member;Saline Aquifer without hydrocarbon fields;0;100;1500;165;60;50;600;1109.52;GB;-1.71367925;58.244461;0
+460;Collyhurst Sandstone Unit 2;Saline Aquifer without hydrocarbon fields;0;575;1490;164;61;0.1;700;1220.524256;GB;-4.003398067;54.18761158;0
+462;Otter Sandstone Formation;Saline Aquifer with hydrocarbon fields;1;125;1500;165;65;50;688;1265.9458;GB;-2.123036842;50.48018175;0
+471;Grid Sandstone Member;Saline Aquifer without hydrocarbon fields;0;100;1000;103;43;500;600;1389.15;GB;1.256971647;59.26360488;0
+134;Grevena;Saline Aquifer without hydrocarbon fields;0;300;1100;120;50;50;584.71;1528.724295;GR;21.14888889;40.29611111;1
+454;Ormskirk Sandstone Unit 1;Saline Aquifer with hydrocarbon fields;1;230;890;95;61;100;725;2957.0204;GB;-3.591170453;53.84996599;0
+173;Greensand 'A' and 'B' Sands;Saline Aquifer with hydrocarbon fields;1;38;800;82;29;50;787;2050.684326;IE;-8.051944444;51.25555556;0
+491;Piper Formation;Saline Aquifer with hydrocarbon fields;1;140;3000;309;113;1000;700;2138.83824;GB;-0.099272968;58.52309137;0
+459;Collyhurst Sandstone Unit 1;Saline Aquifer without hydrocarbon fields;0;363;1700;1700;66;20;700;2141.463324;GB;-3.495559357;53.64289201;0
+479;Brent Group;Saline Aquifer with hydrocarbon fields;1;180;2500;400;95;300;700;2754.10791;GB;1.351733828;61.11119112;0
+135;Drava;Saline Aquifer with hydrocarbon fields;1;1000;1400;140;82;90;373;2271.403296;HR;17.7225;45.80416667;1
+133;Thessaloniki Basin;Saline Aquifer with hydrocarbon fields;1;100;1800;180;60;100;705.44;2698.308;GR;22.61583333;40.56;1
+487;Findhorn Formation;Saline Aquifer without hydrocarbon fields;0;500;3000;330;113;10;600;4741.74;GB;-1.924529913;58.32562071;0
+457;Maureen Sandstone Unit;Saline Aquifer with hydrocarbon fields;1;55;2500;258;95;100;700;4828.123075;GB;0.799728696;58.21578367;0
+492;Skagerrak Unit 1;Saline Aquifer with hydrocarbon fields;1;400;3250;348;122;10;700;5265.988;GB;1.622149179;57.34975132;0
+132;Prinos Sand;Saline Aquifer with hydrocarbon fields;1;260;2400;310;110;50;724.77;6317.556896;GR;24.34388889;40.65166667;0
+464;Plattendolomit Unit;Saline Aquifer with hydrocarbon fields;1;120;2000;206;78;20;700;5492.7872;GB;0.944759993;57.34051093;0
+78;Bunter Sand Stone unit 1;Saline Aquifer without hydrocarbon fields;0;200;1600;16;50;300;629;6210.400302;DK;11.4;54.7;1
+470;Dornoch Formation;Saline Aquifer without hydrocarbon fields;0;300;1400;140;57;150;600;8036.7876;GB;0.117677473;58.78460253;0
+475;Auk Formation Unit;Saline Aquifer with hydrocarbon fields;1;150;2000;214;78;1;630;8856.097658;GB;1.449268638;57.43753242;0
+79;Gassum Formation unit 1;Saline Aquifer without hydrocarbon fields;0;150;1523;16;51;385;628;9072.13824;DK;10.0018;56.56119;1
+463;St Bees Sandstone  Unit;Saline Aquifer without hydrocarbon fields;0;885;1435;153;79;5;725;11099.42404;GB;-3.783000562;54.04912548;0
+442;Heimdal Sandstone Unit;Saline Aquifer without hydrocarbon fields;0;491.64;1422;146;58;200;600;12220.08093;GB;1.390369946;59.74385612;0
+439;Bunter Sandstone Formation;Saline Aquifer with hydrocarbon fields;1;150;1535;158;60;20;600;13293.9144;GB;1.270767238;54.01255983;0
+201;Deimena Formation Sandstone;Saline Aquifer with hydrocarbon fields;1;50;1000;100;21.5;300;700;13552;LV;22.33267;56.60013;1
+516;Fulmar Sandstone Unit;Saline Aquifer with hydrocarbon fields;1;250;3000;372;140;200;700;13693.05;GB;1.584463885;56.95215819;0
+446;Mousa Formation;Saline Aquifer without hydrocarbon fields;0;250;700;72;32;1000;600;14613.75;GB;0.131075992;58.50572513;0
+472;Cormorant Formation;Saline Aquifer without hydrocarbon fields;0;650;3400;774;135;40;857;16360.99166;;1.207222222;60.45638889;0
+469;Mey Sandstone Unit;Saline Aquifer with hydrocarbon fields;1;238;2300;237;88;500;700;21854.58985;GB;0.510038306;57.90680973;0
+232;Mogilenska;Saline Aquifer without hydrocarbon fields;0;160;1135;113.5;50;0;531.4;25213.35706;PL;18.29055556;52.56361111;1
+444;Forties Sandstone Member;Saline Aquifer with hydrocarbon fields;1;80;2000;203;38;100;700;26453.71952;GB;1.333267017;57.40650906;0
+81;Skagerrak Formation unit 1;Saline Aquifer without hydrocarbon fields;0;300;1500;12;41;100;641;36636.56525;DK;8.311394;57.438222;0
+233;Borucicka;Saline Aquifer without hydrocarbon fields;0;100;1650;165;65;0;595.9;39663.34236;PL;18.22666667;52.46638889;1
+234;Komorowska;Saline Aquifer without hydrocarbon fields;0;100;1700;170;65;0;609.5;40568.5638;PL;18.58166667;52.45333333;1
+235;Baltycka;Saline Aquifer without hydrocarbon fields;0;200;4000;400;90;0;789.7;93202.28928;PL;18.80694444;52.62;1

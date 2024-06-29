@@ -1,0 +1,68 @@
+id_powerplant;name_powerplant;gross_cap_ele;gross_cap_th;start_year;latitude;longitude;name_country;name_turbine_type;NUTS_AREA
+90;Altheim;1;12;2001;48.2502;13.2345;Austria;ORC;AT31
+91;Bad Blumau;0.2;7.5;2001;47.1244;16.0434;Austria;ORC;AT22
+92;Simbach/Braunau;0.6;42.3;2001;48.2573;13.011;Austria;Other;DE22
+93;Bouillante I;4;NULL;1986;16.1371;-61.7674;France;Dry steam;PT20
+94;Bouillante II;11;NULL;2003;16.1371;-61.7674;France;Dry steam;PT20
+95;Soultz-sous-forets;1.5;NULL;2010;48.9353;7.86525;France;ORC;DEB3
+96;Bruchsal;0.44;5.5;2009;49.1252;8.5671;Germany;Kalina;DE12
+97;Dürrnhaar;7;NULL;2012;47.9961;11.7259;Germany;ORC;DE21
+98;Oberhaching-Laufzorn;4.3;40;2014;48.02;11.5626;Germany;ORC;DE21
+99;Traunreut;5.5;12;2016;47.9731;12.5796;Germany;ORC;DE21
+100;Kirchstockach;7;NULL;2013;48.0272;11.6878;Germany;ORC;DE21
+101;Insheim;4.8;8;2013;49.1539;8.15306;Germany;ORC;DEB3
+102;Landau;0.79;5;2007;49.1866;8.12336;Germany;ORC;DEB3
+103;Sauerlach;5;4;2012;47.9724;11.6686;Germany;ORC;DE21
+104;Unterhaching;3.36;38;2007;48.0238;11.6209;Germany;Kalina;DE21
+105;Bjarnaflag;3;NULL;1969;65.6469;-16.8469;Iceland;Back pressure;IS00
+106;Hellisheidi 1;270;400;2006;64.0372;-21.4008;Iceland;Double flash;IS00
+107;Hellisheidi 2;33;NULL;2007;64.0372;-21.4008;Iceland;Double flash;IS00
+108;Husavik;2;14;2000;66.0476;-17.3435;Iceland;Kalina;IS00
+109;Svartsengi;66;150;1977;63.8786;-22.4328;Iceland;Single flash;IS00
+110;Svartsengi;8.4;NULL;2007;63.8786;-22.4328;Iceland;ORC;IS00
+111;Krafla;60;NULL;1978;65.7029;-16.7744;Iceland;Double flash;IS00
+112;Nesjavellir;120;300;1998;64.1082;-21.2566;Iceland;Single flash;IS00
+113;Reykjanesvirkjun;100;NULL;2006;63.8264;-22.6819;Iceland;Single flash;IS00
+114;Carboli 1;15.4;NULL;1998;43.1369;10.8291;Italy;Dry steam;ITI1
+115;Carboli 2;15.4;NULL;1997;43.1361;10.829;Italy;Dry steam;ITI1
+116;Cornia 2;12;NULL;1994;43.166;10.806;Italy;Dry steam;ITI1
+117;Nuova Lagoni Rossi;12.7;NULL;2009;43.1667;10.7846;Italy;Dry steam;ITI1
+118;Le Prata;18;NULL;1996;43.1962;10.8322;Italy;Dry steam;ITI1
+119;Monteverdi1;17.8;NULL;1997;43.1861;10.7655;Italy;Dry steam;ITI1
+120;Monteverdi2;15.6;NULL;1997;43.1973;10.7652;Italy;Dry steam;ITI1
+121;Nuova Lago;10.9;NULL;2002;43.1557;10.8145;Italy;Dry steam;ITI1
+122;Nuova Monterotondo;8;NULL;2002;43.1517;10.8497;Italy;Dry steam;ITI1
+123;Nuova San Martino;36.2;NULL;2005;43.1452;10.8321;Italy;Dry steam;ITI1
+124;Nuova Sasso;14;NULL;1996;43.1755;10.853;Italy;Dry steam;ITI1
+125;Sasso 2;16.7;NULL;2009;43.1755;10.854;Italy;Dry steam;ITI1
+126;Nuova Serrazzano;47.5;NULL;2002;43.2042;10.8002;Italy;Dry steam;ITI1
+127;Selva 1;18.3;NULL;1999;43.1809;10.8832;Italy;Dry steam;ITI1
+128;Farinello;52.4;NULL;1995;43.2385;10.9045;Italy;Dry steam;ITI1
+129;Nuova Castelnuovo;14.9;NULL;2000;43.2169;10.9051;Italy;Dry steam;ITI1
+130;Nuova Gabbro;19.1;NULL;2002;43.2611;10.8854;Italy;Dry steam;ITI1
+131;Nuova Lardarello 3;16.6;NULL;2005;43.2042;10.8002;Italy;Dry steam;ITI1
+132;Nuova Molinetto;14.5;NULL;2002;43.2115;10.8586;Italy;Dry steam;ITI1
+133;Sesta 1;13.9;NULL;2002;43.2296;10.9475;Italy;Dry steam;ITI1
+134;Valle Secolo 1;55.3;NULL;1991;43.2362;10.8675;Italy;Dry steam;ITI1
+135;Valle Secolo 2;55.3;NULL;1992;43.2362;10.8675;Italy;Dry steam;ITI1
+136;Bagnore 3;19.9;NULL;1998;42.8422;11.559;Italy;Single flash;ITI1
+137;Bagnore Binary;1;NULL;2013;42.8422;11.558;Italy;ORC;ITI1
+138;Bagnore 4;40;NULL;2014;42.8407;11.5575;Italy;Single flash;ITI1
+139;Piancastagnaio 3;20;NULL;1990;42.8332;11.7003;Italy;Single flash;ITI2
+140;Piancastagnaio 4;20;NULL;1991;42.858;11.7056;Italy;Single flash;ITI2
+141;Piancastagnaio 5;20;NULL;1996;42.8569;11.7029;Italy;Single flash;ITI2
+142;Chiusdino 1;19.4;NULL;2010;43.1606;11.0638;Italy;Dry steam;ITI1
+143;Nuova Radicondoli;39.5;NULL;2002;43.1934;11.045;Italy;Dry steam;ITI1
+144;Nuova Radicondoli 2;19.4;NULL;2010;43.1931;11.0451;Italy;Dry steam;ITI1
+145;Pianacce;14.1;NULL;1987;43.2104;11.0311;Italy;Dry steam;ITI1
+146;Rancia 1;19.1;NULL;1986;43.214;11.0468;Italy;Dry steam;ITI1
+147;Rancia 2;19.1;NULL;1988;43.2103;11.0354;Italy;Dry steam;ITI1
+148;Travale 3;16.5;NULL;2000;43.1711;11.0389;Italy;Dry steam;ITI1
+149;Travale 4;38.9;NULL;2002;43.1686;11.038;Italy;Dry steam;ITI1
+150;Ribeira Grande 1;5;NULL;1994;37.7823;-25.4892;Portugal;ORC;PT20
+151;Ribeira Grande 2;8;NULL;1998;37.7823;-25.4892;Portugal;ORC;PT20
+152;Pico Vermelho;13;NULL;2006;37.8017;-25.5046;Portugal;ORC;PT20
+153;CE Iosia Nord;0.05;NULL;2012;47.0675;21.9061;Romania;ORC;HU32
+342;Tura;3.35;5.233;2017;47.6038;19.5598;Hungary;ORC;HU11
+343;Theistareykir;90;0;2017;65.89;-16.9618;Iceland;Single flash;IS00
+344;Pico Alto;4.5;0;2017;38.7295;-27.2509;Portugal;ORC;PT20

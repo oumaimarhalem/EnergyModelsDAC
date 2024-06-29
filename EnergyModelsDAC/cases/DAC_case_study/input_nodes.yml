@@ -1,0 +1,147 @@
+## Units: ktCO2, ktCO2/hr, GW, GWh, GWel (power), GWth (heat)
+
+## General parameters
+Discount_rate: 0.07                                             # -/year; baseline
+# Discount_rate: 0.04                                             # -/year; low discount (Pahle et al. 2023)
+# Discount_rate: 0.11                                             # -/year; high discount (Young et al. 2023)
+CO2_limits: [1e8, 1e8, 1e8, 1e8, 1e8, 1e8]                      # kt/yr, per sp
+CO2_price: [120.7, 154.7, 197.2, 253.2, 326.2, 416.3]           # Projected EU allowance price (kEUR2015/ktCO2) (Pahle et al. 2023); corrected to 2022 prices (CBS)
+# CO2_price: [30.51, 63.86, 80.27, 102.74, 128.28, 152.62]        # k$2010/ktCO2, per sp (IIASA AR6 scenario explorer; C1-C3 for EU28; median of 733 scenarios)
+# CO2_price: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+## Heat supply for DAC-S
+SMR:                                                            # Small nuclear reactors (Bertoni et al. 2023; Carlsson et al. 2014)
+  capacity: 0
+  OPEX_variable: 7.1                                            # kEUR/GWhe
+  OPEX_fixed: [7.60e4, 7.41e4, 7.21e4, 7.01e4, 6.98e4, 6.95e4]  # kEUR/GWth/yr
+  Output: {Heat: 0.616, Power: 0.319}
+  Loss_factor: 0.14                                             # GWel per GWth 
+  CO2_intensity: 13.2e-3                                        # ktCO2/GWh (Carless et al. 2016)
+
+  CAPEX: [1.90e6, 1.85e6, 1.80e6, 1.75e6, 1.75e6, 1.74e6]       # kEUR/GWth; including integration cost; corrected from 2013 to 2022 prices (CBS)
+  capacity_max_installed: 1e3                                   # GW
+  capacity_max_add: 1e3                                         # GW/sp
+  capacity_min_add: 0
+  cap_increment: 0.159                                          # GWth
+  Lifetime: 60                                                  # yr
+
+Heat_pump:                                                      # (Grosse et al. 2017; Pieper et al. 2018); corrected from 2015 to 2022 prices (CBS)
+  capacity: 0                                                   # GWth
+  OPEX_variable: [2.15, 2.09, 2.03, 1.96, 1.96, 1.96]           # kEUR/GWhth
+  OPEX_fixed: [3.50e3, 3.32e3, 3.13e3, 2.95e3, 2.70e3, 2.46e3]  # kEUR/GWth/yr
+
+  CAPEX: [4.91e5, 4.67e5, 4.54e5, 4.42e5, 4.30e5, 4.17e5]       # kEUR/GWth             
+  capacity_max_installed: 1e3                                   # GWth
+  capacity_max_add: 1e3                                         # GWth/sp
+  capacity_min_add: 0
+  cap_increment: [0.001, 0.025, 0.025, 0.025, 0.025, 0.025]     # GWth
+  Lifetime: 25                                                  # yr
+    
+Geothermal_heating_EGS:                                         # (Grosse et al. 2017)
+  capacity: 0
+  OPEX_variable: 0.0
+  OPEX_fixed: [2.27e4, 2.21e4, 2.09e4, 1.96e4, 1.90e4, 1.84e4]  # kEUR/GWth/yr; corrected from 2015 to 2022 prices (CBS)
+
+  CAPEX: [3.87e6, 3.68e6, 3.56e6, 3.44e6, 3.25e6, 3.07e6]       # kEUR/GWth; corrected from 2015 to 2022 prices (CBS)
+  capacity_max_installed: 1e3                                   # GWth
+  capacity_max_add: 1e3                                         # GWth/sp
+  capacity_min_add: 0
+  cap_increment: 0.025                                          # GWth
+  Lifetime: 30                                                  # yr
+
+Solar_thermal:                                                  # Vacuum tube collectors including diurnal storage (Grosse et al. 2017)
+  capacity: 0
+  OPEX_variable: 0.0
+  OPEX_fixed: [3.87, 3.68, 3.38, 3.07, 2.76, 2.46]              # kEUR/GWth/yr; corrected from 2015 to 2022 prices (CBS)
+  efficiency: [0.33795, 0.3384, 0.33885, 0.3393, 0.33975, 0.3402] 
+  heat_capacity: 0.70                                           # GWth/km2            
+
+  CAPEX: [6.85e5, 6.59e5, 6.34e5, 6.09e5, 5.88e5, 5.68e5]       # kEUR/GWth (25 MWth plant); corrected from 2015 to 2022 prices (CBS)
+  capacity_max_installed: 1e3                                   # GWth
+  capacity_max_add: 1e3                                         # GWth/sp
+  capacity_min_add: 0
+  cap_increment: 0.025                                          # GWth
+  Lifetime: 25                                                  # yr
+
+Heat_storage:
+  rate_capacity: 0
+  storage_capacity: 0
+  OPEX_variable: 0.0
+  OPEX_fixed: 0.0
+  Cycle_efficiency: 0.95                                        # Charging and discharging losses
+  Storage_loss_coeff_1: 0.005                                   # -/h; self-discharge losses
+  Storage_loss_coeff_2: 0.001                                   # -/h; self-discharge losses
+  Minimum_temperature: 100                                      # deg C
+  Maximum_temperature: 130                                      # deg C
+
+  rate_max_installed: 1e3
+  rate_max_add: 1e3
+  rate_min_add: 0
+  rate_cap_increment: 0.025                                     # GWth
+  stor_max_installed: 1e3
+  stor_max_add: 1e3
+  stor_min_add: 0
+  stor_cap_increment: 0.30                                      # GWhth; 12-hour discharge rate
+
+Geothermal_power_plant:
+  capacity_factor: 0.95                                         # (Grosse et al. 2017)
+  electrical_flow_ratio:                                        # MW/(kg/s) (McQueen et al. 2020)
+    Dry_steam: 0.47
+    Single_flash: 0.20
+    Double_flash: 0.70
+    Binary: 0.035
+  CO2_intensity: 45.0e-3                                        # ktCO2/GWh (McQueen et al. 2020)              
+ 
+Nuclear_power_plant:
+  capacity_factor: 0.95                                         
+
+## CO2 storage
+CO2_storage:  
+  CO2_emissions:                                                # ktCO2 emitted/ktCO2 stored over 10,000 years (Alcalde et al. 2018)
+    onshore: 0.0215  
+    offshore: 0.0053 
+  Lifetime: 40                                                  # yr (ZEP 2011)
+  
+  initial_pressure:                                             # MPa (ZEP 2011)
+    onshore: 8.0
+    offshore: 6.0
+  injection_pressure: 15                                        # MPa (Qiu et al. 2022)
+  injection_temperature: 45                                     # deg C
+
+## Natural gas supply
+NG:
+  CO2_intensity: 0.20196                                        # ktCO2/GWh (IPCC 2023)
+  leakage_fraction: 0.35                                        # Share of direct CO2-eq emissions (Shirizadeh et al. 2023)
+  growth_rate: 0.013                                            # Averaged annual compound growth rate up to 2050 (EIA 2020)
+  price:                                                        # kEUR/GWh; 2022 prices for non-household medium consumers (EC n.d.)
+      SI: 62.96
+      ES: 68.41
+      GB: 56.42                                                 # (Statista 2023)
+      LU: 73.70
+      HU: 55.83
+      CH: 199.4                                                 # August 1, day-ahead NG price (SFOE n.d.)
+      DE: 44.45
+      SE: 114.50
+      FR: 54.39
+      PL: 73.96
+      FI: 115.96
+      IT: 70.69
+      HR: 54.20
+      AT: 58.42
+      NO: 114.50                                                # Data not available; assumed similar to SE
+      LT: 104.27
+      PT: 67.18
+      LV: 69.94
+      NL: 53.78
+      BE: 47.25
+      IE: 61.31
+      RO: 82.94
+      BG: 74.47
+      CZ: 66.72
+      SK: 58.11
+      DK: 97.18
+      EE: 97.66
+      EL: 95.93
+      BA: 45.64
+      RS: 36.82
+      MK: 90.64
