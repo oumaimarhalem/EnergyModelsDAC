@@ -1,8 +1,0 @@
-
-Gurobi 11.0.0 (mac64[x86], Python) logging started Tue Dec 19 11:20:49 2023
-
-Set parameter WLSAccessID
-Set parameter WLSSecret
-Set parameter LicenseID to value 2454865
-Set parameter LogFile to value "gurobi.log"
-Academic license 2454865 - for non-commercial use only - registered to o.___@students.uu.nl
